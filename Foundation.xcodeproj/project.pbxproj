@@ -17,6 +17,7 @@
 		3EA9D6701EF0532D00B362D6 /* TestJSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA9D66F1EF0532D00B362D6 /* TestJSONEncoder.swift */; };
 		3EDCE50C1EF04D8100C2EC04 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDCE5051EF04D8100C2EC04 /* Codable.swift */; };
 		3EDCE5101EF04D8100C2EC04 /* JSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDCE5091EF04D8100C2EC04 /* JSONEncoder.swift */; };
+		4A7D774A1F321D4C00C59BC0 /* TestDateIntervalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7D77491F321D4C00C59BC0 /* TestDateIntervalFormatter.swift */; };
 		528776141BF2629700CB0090 /* FoundationErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C253A1BF16E1600804FC6 /* FoundationErrors.swift */; };
 		528776191BF27D9500CB0090 /* Test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 528776181BF27D9500CB0090 /* Test.plist */; };
 		555683BD1C1250E70041D4C6 /* TestUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555683BC1C1250E70041D4C6 /* TestUserDefaults.swift */; };
@@ -492,6 +493,7 @@
 		3EDCE5051EF04D8100C2EC04 /* Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
 		3EDCE5091EF04D8100C2EC04 /* JSONEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncoder.swift; sourceTree = "<group>"; };
 		400E22641C1A4E58007C5933 /* TestProcessInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestProcessInfo.swift; sourceTree = "<group>"; };
+		4A7D77491F321D4C00C59BC0 /* TestDateIntervalFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDateIntervalFormatter.swift; sourceTree = "<group>"; };
 		4AE109261C17CCBF007367B5 /* TestIndexPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestIndexPath.swift; sourceTree = "<group>"; };
 		4DC1D07F1C12EEEF00B5948A /* TestPipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPipe.swift; sourceTree = "<group>"; };
 		522C253A1BF16E1600804FC6 /* FoundationErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationErrors.swift; sourceTree = "<group>"; };
@@ -1488,6 +1490,7 @@
 				D4FE895A1D703D1100DA7986 /* TestURLRequest.swift */,
 				5B6F17961C48631C00935030 /* TestUtils.swift */,
 				03B6F5831F15F339004F25AF /* TestURLProtocol.swift */,
+				4A7D77491F321D4C00C59BC0 /* TestDateIntervalFormatter.swift */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -2361,6 +2364,7 @@
 				5B13B3451C582D4C00651CE2 /* TestNSString.swift in Sources */,
 				1520469B1D8AEABE00D02E36 /* HTTPServer.swift in Sources */,
 				B90C57BC1EEEEA5A005208AE /* TestThread.swift in Sources */,
+				4A7D774A1F321D4C00C59BC0 /* TestDateIntervalFormatter.swift in Sources */,
 				B90C57BB1EEEEA5A005208AE /* TestFileManager.swift in Sources */,
 				A058C2021E529CF100B07AA1 /* TestMassFormatter.swift in Sources */,
 				5B13B3381C582D4C00651CE2 /* TestNotificationQueue.swift in Sources */,
