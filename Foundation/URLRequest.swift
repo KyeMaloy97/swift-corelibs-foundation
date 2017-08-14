@@ -234,6 +234,10 @@ public struct URLRequest : ReferenceConvertible, Equatable, Hashable {
     public static func ==(lhs: URLRequest, rhs: URLRequest) -> Bool {
         return lhs._handle._uncopiedReference().isEqual(rhs._handle._uncopiedReference())
     }
+    
+    public static func !=(lhs: URLRequest, rhs: URLRequest) -> Bool {
+      return !(lhs._handle._uncopiedReference().isEqual(rhs._handle._uncopiedReference()))
+    }
 }
 
 extension URLRequest : CustomStringConvertible, CustomDebugStringConvertible, CustomReflectable {
